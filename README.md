@@ -1,51 +1,18 @@
-# Alura - Imersão back-end
+<h1>📸 Insta Bytes - Front-End</h1>
+<img loading="lazy" src="https://img.shields.io/github/stars/DanielSouza2005/insta_bytes-FRONT?style=social"/>
 
-Este é o repositório do front-end do projeto.
+<h2>💡 Sobre </h2>
+<p>O Insta Bytes - Front-End é a interface web do projeto Insta Bytes, desenvolvido durante a Imersão Back-End da Alura. Este projeto simula uma rede social de compartilhamento de imagens, permitindo que os usuários visualizem e interajam com fotos. A aplicação consome dados de uma API, fornecida pelo repositório insta_bytes-API, que interage com um banco de dados para fornecer e armazenar informações.</p>
 
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
+<h2>🖥️ Tecnologias Utilizadas </h2>
+<div align="left" dir="auto">
+  <a href="https://skillicons.dev" rel="nofollow">
+    <img src="https://skillicons.dev/icons?i=html,css,js,nodejs" style="max-width: 100%;">
+  </a>
+  <br>
+</div>
 
-## PASSO 1: Baixe o código do projeto:
+<h2>🛠️ Funcionalidades do Projeto </h2>
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
-
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
-
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
-
-### Opção 2 - Baixando um arquivo .zip
-
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
-
-
-## PASSO 2: Instale o projeto:
-
-### Opção 1 - Utilizando o terminal do Visual Studio Code
-
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
-
-### Opção 2 - Utilizando outros terminais
-
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
-
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
-
-```
-> dev
-> npx parcel --port 8000 index.html
-
-Server running at http://localhost:8000
-✨ Built in xxxms
-```
-
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+- 🖼️ `Visualização de Fotos`: Exibe uma galeria de imagens simulando postagens de uma rede social.
+- 🔄 `Integração com API`: Consome dados de uma API que interage com um banco de dados para exibir as fotos.
